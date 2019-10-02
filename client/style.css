@@ -1,7 +1,22 @@
+html{
+    background: url("./image/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -9999;
+}
+
 .autocomplete {
     display:block;
 }
 .autocomplete__selection-container, .autocomplete__selection-items {
     padding-top: 0;
     width: 100%;
+}
+
+.container{
+    margin-top: 10%;
+    background-color: rgba(250, 245, 255, 0.8);
+    border-radius: 10px;
 }
